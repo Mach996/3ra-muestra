@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - 3RA. Muestra Cinematográfica del Golfo</title>
+    <!-- Fuentes de Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+    <!-- Vinculación de la hoja de estilos personalizada -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Tipografía */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #212529;
+        }
+
+        h1.display-4 {
+            font-size: 3rem;
+            color: #030303;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background: url('https://example.com/imagen-cine.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 60px 0;
+            color: #000000;
+        }
+
+        header .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #FFA500;
+            font-size: 1.75rem;
+        }
+
+        /* Botones personalizados */
+        .btn-primary, .btn-warning {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #FFA500;
+            border-color: #FFA500;
+            color: #fff;
+            padding: 10px 20px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover, .btn-warning:hover {
+            background-color: #FF8C00;
+            border-color: #FF8C00;
+        }
+
+        .btn-secondary {
+            background-color: #FF8C00;
+            border-color: #FF8C00;
+            color: #fff;
+            padding: 10px 20px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background-color: #343a40;
+            border-color: #343a40;
+        }
+
+        /* Estilos para secciones */
+        .section-title {
+            margin-bottom: 30px;
+            font-size: 2rem;
+            color: #FF8C00;
+        }
+
+        .section-content {
+            margin-bottom: 50px;
+        }
+
+        /* Fondo para el footer */
+        footer {
+            background-color: #212529;
+            color: #fff;
+            padding: 40px 0;
+        }
+
+        footer .nav-link {
+            color: #FF8C00;
+        }
+
+        footer .nav-link:hover {
+            color: #FF8C00;
+        }
+
+        /* Imagen de fondo para el encabezado */
+        header .container {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #212529;
+        }
+        .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap;
+}
+
+.archive-image {
+    max-width: 400px; /* Ajusta el tamaño máximo según tus necesidades */
+    height: auto;
+    border-radius: 8px; /* Opcional: agrega bordes redondeados */
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo para los controles */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Muestra Cinematográfica del Golfo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/nosotros">NOSOTRXS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/3ra-muestra">3RA. MUESTRA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/prensa">PRENSA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contacto">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="display-4">3RA. MUESTRA CINEMATOGRÁFICA DEL GOLFO</h1>
+            <p><span class="fecha-muestra font-weight-bold text-warning">Del 26 al 29 de septiembre de 2024</span></p>
+            <p>Proyección de películas, Talleres, Clases magistrales</p>
+            <p>Los Mochis, Sinaloa</p>
+        </div>
+    </header>
+    
+    <main class="container mt-5">
+        <div class="section-content text-center">
+            <h2 class="section-title">¿Qué es la Muestra Cinematográfica del Golfo?</h2>
+            <p>La Muestra Cinematográfica del Golfo es un espacio dedicado a celebrar el cine regional, nacional e internacional en Los Mochis, Sinaloa. A través de una programación pensada para todas las edades, así como talleres, clases magistrales y actividades que promueven la comunidad, impulsamos el quehacer de la distribución cinematográfica, el diálogo y el intercambio cultural.</p>
+            <a href="/nosotros" class="btn btn-primary conoce-mas">Conoce más</a>
+        </div>
+
+        <div class="section-content">
+            <h2 class="section-title text-center">CONOCE LA PROGRAMACIÓN</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Películas</h3>
+                    <p>Nuestra selección de películas para todas las edades, está conformado por x locales, x nacionales y x internacionales. Conoce los títulos que forman parte de nuestra tercera edición.</p>
+                    <a href="/3ra-muestra#peliculas" class="btn btn-secondary">Ver más</a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Talleres</h3>
+                    <p>Los talleres de la Muestra ofrecen formación práctica en técnicas de cine, impartidos por profesionales para cineastas emergentes y entusiastas del cine.</p>
+                    <a href="/3ra-muestra#talleres" class="btn btn-secondary">Ver más</a>
+                </div>
+                <div class="col-md-4">
+                    <h3>Clases magistrales</h3>
+                    <p>Una oportunidad única para aprender de reconocidos cineastas y expertos del cine, profundizando en diversos aspectos de la producción cinematográfica.</p>
+                    <a href="/3ra-muestra#clases-magistrales" class="btn btn-secondary">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+       <!-- Sección adicional -->
+<div class="section-content">
+    <h2 class="section-title text-center">MÁS NOTICIAS</h2>
+    <div id="newsCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#newsCarousel" data-slide-to="1"></li>
+            <li data-target="#newsCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Conoce las fechas y actividades de la 3ra. Muestra Cinematográfica del Golfo</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">El talento sinaloense estará presente en nuestra 3ra. edición</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Talleres, clases magistrales y más… ¡Conoce la programación!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+        <!-- Sección adicional -->
+<div class="section-content text-center">
+    <h2 class="section-title">ARCHIVO CINEMATOGRÁFICO</h2>
+    <p>Conoce las propuestas cinematográficas que han formado parte de cada edición de la Muestra Cinematográfica del Golfo.</p>
+<!--    <a href="/archivo" class="btn btn-primary">Ver archivo</a> -->
+    <div class="image-gallery mt-4">
+        <img src="ruta/a/imagen2022.jpg" alt="Archivo 2022" class="archive-image">
+        <img src="ruta/a/imagen2023.jpg" alt="Archivo 2023" class="archive-image">
+    </div>
+</div>
+    
+    <footer>
+        <div class="container text-center">
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/nosotros">NOSOTRXS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/3ra-muestra">3RA. MUESTRA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/prensa">PRENSA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <p class="mt-4">&copy; 2024 Muestra Cinematográfica del Golfo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
